@@ -33,7 +33,7 @@ Run-QuickServices-AsAdmin.cmd
 If you host `QuickServices.ps1` somewhere raw-accessible, users can run it with:
 
 ```powershell
-irm https://your-server.example/QuickServices.ps1 -OutFile "$env:TEMP\QuickServices.ps1"; Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$env:TEMP\QuickServices.ps1`""
+irm https://erentere7867.com/QuickServices.ps1 -OutFile "$env:TEMP\QuickServices.ps1"; Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$env:TEMP\QuickServices.ps1`""
 ```
 
 Replace the URL with your raw GitHub or server URL.
